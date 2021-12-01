@@ -1,0 +1,37 @@
+{
+  "name": "learn-node.js",
+  "version": "0.0.0",
+  "private": true,
+  "config": {
+    "port": "8880"
+  },
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@types/nodemailer": "^6.2.1",
+    "angular": "^1.6.8",
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "csv-parse": "^4.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "express-fileupload": "^1.1.5",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "morgan": "~1.9.0",
+    "multer": "^1.4.2",
+    "mysql": "^2.15.0",
+    "mysqldump": "^3.1.0",
+    "node-cmd": "^3.0.0",
+    "node-schedule": "^1.3.2",
+    "nodemailer": "^6.3.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "path": "^0.12.7",
+    "serve-favicon": "~2.4.5",
+    "xlsx": "^0.15.1",
+    "yarn": "^1.16.0"
+  }
+}
